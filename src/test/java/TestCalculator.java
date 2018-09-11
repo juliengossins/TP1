@@ -58,4 +58,10 @@ public class TestCalculator
     {
         Assert.fail();
     }
+
+    @Test
+    public void FailedTest2()
+    {
+        Assert.fail();
+    }
 }
