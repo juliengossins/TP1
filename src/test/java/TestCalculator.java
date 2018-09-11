@@ -52,4 +52,10 @@ public class TestCalculator
         //this is a comment
         Assert.assertEquals(expectedResult, actualResult);
     }
+
+    @Test
+    public void FailedTest()
+    {
+        Assert.fail();
+    }
 }
